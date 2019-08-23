@@ -1,33 +1,430 @@
+#indonesia.flagContainer{
+  border: 1px solid black;
+  /* padding-top: 66.66%; */
+  height: 20vh;
+  min-height: 150px;
+  max-width: 270px;
+  width: 60vw;
+}
+
+
 /* Indonesia */
+/* #indonesia.flagContainer {
+  height: 20vh;
+  max-height: 200px;
+  max-width: 300px;
+  width: 60vw;
+} */
+
+#f1_row1 {
+  height: 50%;
+  background-color: red;
+}
+#f2_row2{
+  height: 50%;
+  background-color: white;
+}
 
 /* Colombia */
+/* #columbia.flagContainer{ */
+  /* height: 20vh;
+  max-width: 300px;
+  max-height: 200px; */
+  /* width: 60vw; */
+/* } */
+#columbia.flagContainer{
+  border: 1px solid black;
+  /* padding-top: 66.66%; */
+  height: 20vh;
+  min-height: 150px;
+  max-width: 250px;
+  width: 60vw;
+}
+
+.columbia.yellow {
+  height: 50%;
+  background-color: yellow;
+}
+.columbia.blue{
+  height: 25%;
+  background-color: blue;
+}
+.columbia.red{
+  height: 25%;
+  background-color: red;
+}
 
 /* Ireland */
+.flagContainer {
+  width: 40vmax;
+  height: 25vmax;
+  max-width: 400px;
+  max-height: 250px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+
+#ireland{
+  display: flex;
+}
+#ireland .green {
+  /* display: flex; */
+  width: 33%;
+  background-color: green;
+  height: 100%;
+}
+
+#ireland .white {
+  /* display: flex; */
+  width: 33%;
+  background-color: white;
+  height: 100%;
+}
+
+#ireland .orange {
+  width: 33%;
+  background-color: orange;
+  height: 100%;
+}
+
 
 /* France */
+#france {
+  font-size: 0;
+}
+
+#france span {
+  display: inline-block;
+  height: 100%;
+  width: 33%;
+}
+
+#france .blue {
+  background-color:navy;
+}
+#france .red {
+  background-color: maroon;
+}
 
 /* Benin */
+#benin > span {
+  display: inline;
+  /* float:  */
+}
+
+#benin > .green {
+  float: left;
+  background-color: forestgreen;
+  width: 35%;
+  height: 100%;
+}
+
+#benin .redyellow .yellow {
+  height: 50%;
+  background-color: #CCCC00;
+}
+
+#benin .redyellow .red {
+  height: 50%;
+  background-color: red;
+}
+
+
 
 /* Sweden */
+#sweden {
+  background-color: royalblue;
+  position: relative;
+}
 
+#sweden .yellow1 {
+  background-color: yellow;
+  width: 12%;
+  height: 100%;
+  position: absolute;
+  left: 30%;
+}
+
+#sweden .yellow2 {
+  background-color: yellow;
+  width: 100%;
+  height: 18%;
+  position: absolute;
+  top: 41%;
+}
 /* Switzerland */
+#switzerland {
+  height: 40vmin;
+  width: 36vmin;
+  background-color: red;
+  position: relative;
+}
+
+#switzerland div {
+  position: absolute;
+  background-color: white;
+}
+
+#switzerland .white {
+  width: 50%;
+  height: 20%;
+  left: 25%;
+  bottom: 40%;
+}
+
+#switzerland .white1 {
+  width: 18%;
+  height: 60%;
+  left: 41%;
+  bottom: 20%;
+}
+
+
 
 /* Tonga */
+#tonga {
+  background-color: red;
+  position: relative;
+}
+
+#tongaIns {
+  position: absolute;
+  width: 42%;
+  height: 50%;
+  background-color: white;
+}
+
+#tongaIns .red {
+  width: 50%;
+  height: 20%;
+  left: 25%;
+  bottom: 40%;
+  background-color: red;
+  position: absolute;
+}
+
+#tongaIns .red1 {
+  width: 18%;
+  height: 70%;
+  left: 41%;
+  bottom: 15%;
+  background-color: red;
+  position: absolute;
+}
 
 /* Japan */
+#japan {
+  background-color: white;
+  display: flex;
+}
+
+#japan .circle {
+  background-color: darkred;
+  margin: auto;
+  border-radius: 50%;
+  width: 40%;
+  height: 65%;
+  border: 1px solid black;
+}
+
+
 
 /* Canada */
+#canada {
+  display: flex;
+  position: relative;
+}
+
+#canada .red1, #canada .red2 {
+  width: 25%;
+  height: 100%;
+  background-color: red;
+}
+
+#canada .white {
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  /* display: flex; */
+}
+
+#canada .white > .leaf::before {
+  content: '';
+  height: 85%;
+  width: 85%;
+  position: absolute;
+  background-image: url(assets/images/canada_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 15%;
+  right: 15%;
+  transform: rotateZ(30deg);
+}
 
 /* Norway */
+#norway .flag {
+  width: 80%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: red;
+  position: relative;
+}
+
+#norway .flag > div {
+  background-color: white;
+}
+
+#norway .flag .whitecol {
+  width: 20%;
+  height: 100%;
+  left: 20%;
+  position: absolute;
+}
+
+#norway .flag .whiterow {
+  width: 100%;
+  height: 30%;
+  /* left: 20%; */
+  position: absolute;
+  top: 35%;
+  /* border: 1px solid green; */
+}
+
+.whitecol > .blue {
+  background-color: navy;
+  width: 50%;
+  height: 100%;
+  left: 25%;
+  position: absolute;
+  z-index: 1;
+}
+
+.whiterow > .blue {
+  background-color: navy;
+  width: 100%;
+  height: 50%;
+  top: 25%;
+  position: absolute;
+  z-index: 1;
+}
 
 /* Greece */
+#greece .greece {
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 
+.greece .row {
+  height: 11.1111%;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.greece > .row:nth-child(odd){
+  width: 100%;
+  background-color: royalblue;
+  /* height: 11%; */
+}
+
+.greece .corner {
+  height: 55.5%;
+  width: 40%;
+  background-color: royalblue;
+  position: absolute;
+}
+
+.greece .corner .whitecol {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 40%;
+}
+
+.greece .corner .whiterow {
+  width: 100%;
+  height:  18%;
+  position: absolute;
+  background-color: white;
+  top: 41%;
+}
 /* Somalia */
+#somalia {
+  background-color: royalblue;
+  position: relative;
+}
 
+#somalia .star {
+  color: white;
+  text-align: center;
+  /* align-items: center; */
+  /* margin: auto; */
+  font-size:  20vmin;
+  /* margin: 0 100%; */
+}
 /* Chile */
+#chile .toprow {
+  background-color: white;
+  height: 50%;
+  width:  100%;
+  position: relative;
+}
 
+#chile > .red {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+}
+
+#inner {
+  background-color: royalblue;
+  position: relative;
+  width: 33%;
+  height: 100%;
+}
+
+#inner .chilestar {
+  color: white;
+  text-align: center;
+  /* align-items: center; */
+  /* margin: auto; */
+  font-size: 10vmin;
+  /* margin: 0 100%; */
+}
 /* Turkey */
+#turkey {
+  background-color: red;
+  position: relative;
 
+}
+
+.turkeywhitecircle {
+  border-radius: 50%;
+  background-color: white;
+  width: 35%;
+  height: 58%;
+    /* margin: auto; */
+  left: 17%;
+  top: 21%;
+  position: relative;
+}
+
+.redinwhitecircle {
+  border-radius: 50%;
+  background-color: red;
+  width: 82%;
+  height: 82%;
+    /* margin: auto; */
+  left: 20%;
+  top: 10%;
+  position: relative;
+}
 /* China */
 
 /* Cuba */
